@@ -1,10 +1,13 @@
+// J06 — Bilan des dépenses
+// Type : number[] ; unité de chaque élément : FCFA.
+
 const depensesSemaine = [1500, 2500, 0, 4000, 1000, 2500, 3000];
 
 // TODO 1 : retourner le total en FCFA avec reduce.
 function calculerTotal(depensesSemaine) {
   return depensesSemaine.reduce((cumul, p) => cumul + p, 0)
 } 
-
+// TODO 2 : retourner la moyenne par jour ; 0 si le tableau est vide.
 function calculerMoyenne(depensesSemaine) {
   if (depensesSemaine.length === 0) {
     return 0
@@ -37,7 +40,6 @@ console.log(`les plus grosses depenses de la semaine sont ${grossesDepenses} FCF
 
 const grosseDepense = trouverMaximum(depensesSemaine)
 console.log(`la plus grosse depenses est ${grosseDepense} FCFA`)
-
 
 
 // TODO 5 : créer une copie triée, puis afficher le rapport demandé.

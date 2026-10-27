@@ -3,6 +3,15 @@ J06 — Preuve d’exécution
 Commande réellement lancée dans Windows PowerShell :
 node .\depenses.js
 
+PS C:\Users\DELL\Documents\depart> node depenses.js
+depense total est 14500 FCFA
+la moyenne est 2071.4285714285716 FCFA
+les plus grosses depenses de la semaine sont 2500,4000,2500,3000 FCFA
+la plus grosse depenses est 4000 FCFA
+TODO : complétez l’analyse des dépenses.
+
+
+
 Sortie obtenue après avoir terminé le programme :
 [Collez ici le rapport complet, y compris le tableau avant et après le tri.]
 
