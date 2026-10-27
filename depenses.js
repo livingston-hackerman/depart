@@ -27,16 +27,16 @@ function trouverMaximum(depensesSemaine) {
 }
 
 const depenses = calculerTotal(depensesSemaine)
-console.log(`depense total est ${depenses}`);
+console.log(`depense total est ${depenses} FCFA`);
 
 const moyenne = calculerMoyenne(depensesSemaine)
-console.log(`la moyenne est ${moyenne}`)
+console.log(`la moyenne est ${moyenne} FCFA`)
 
 const grossesDepenses = filtrerGrossesDepenses(depensesSemaine)
-console.log(`les plus grosses depenses de la semaine sont ${grossesDepenses}`)
+console.log(`les plus grosses depenses de la semaine sont ${grossesDepenses} FCFA`)
 
 const grosseDepense = trouverMaximum(depensesSemaine)
-console.log(`la plus grosse depenses est ${grosseDepense}`)
+console.log(`la plus grosse depenses est ${grosseDepense} FCFA`)
 
 
 
